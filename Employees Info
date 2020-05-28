@@ -1,0 +1,28 @@
+package com.records;
+import java.util.Scanner;
+public class Employee{
+public void robert(){
+System.out.println("Robert  1994  125000  64C-WallsStreet");
+}
+public void sam(){
+System.out.println("Sam  2000  80000  68D-WallsStreet");
+}
+public void john(){
+System.out.println("John  1999  80000  26B-WallsStreet");
+}}
+class Main{
+public static void main (String[] args){
+Scanner input=new Scanner(System.in);
+System.out.println("Enter the name to get his or her information");
+String name=input.nextLine();
+System.out.println(Name  Yearofjoining  Salary  Address);
+Employee info=new Employee ();
+if(name=="robert"||"Robert")
+info.robert();
+else if(name=="sam"||"Sam")
+info.sam();
+else if(name=="john"||"John")
+info.john();
+else
+System.out.println("the name is not registered");
+}}
